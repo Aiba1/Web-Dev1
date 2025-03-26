@@ -1,0 +1,10 @@
+<div class="body">
+    <h2>Album Detail</h2>
+    <h2>{{ newTitle }}</h2>
+    <p>Title: <input [(ngModel)]="newTitle"></p>
+    <button (click)="saveChanges()">Save</button>
+    <a [routerLink]="['/albums']" style="padding: 0px 5px;border: 1px solid; border-radius: 3px; text-align: center; text-decoration: none;">
+      Return
+    </a>
+        <a [routerLink]="['/albums', album?.id, 'photos']" style="padding: 0px 5px;border: 1px solid; border-radius: 3px; text-align: center; text-decoration: none;">Photos</a>
+  </div>

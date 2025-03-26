@@ -1,0 +1,75 @@
+.main-page {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 0 200px;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.imgs {
+    
+    text-decoration: none;
+    display: block;
+    margin: auto;
+     img {
+        width: 100%; /* Ensures the image takes full width of the container */
+        height: 200px; /* Set a fixed height */
+        object-fit: contain; /* Ensures the image fits within the box without distortion */
+    }
+    
+
+    .name {
+        color: rgb(0, 140, 255);
+        font-weight: bold;
+        margin-top: 5px;
+    }
+}
+
+.rating {
+    font-size: 15px;
+    text-align: center;
+    color: gold; 
+}
+
+.share-button {
+    margin-top: 10px;
+    display: flex;
+    
+
+    .button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        left: 5px;
+
+        
+
+
+        .button-img {
+            width: 20px;
+        }
+        span{
+            text-align: center;
+            justify-content: center;
+            margin-right: 5px;
+            display: inline;
+            margin-top: 2px;
+        }
+    }
+}

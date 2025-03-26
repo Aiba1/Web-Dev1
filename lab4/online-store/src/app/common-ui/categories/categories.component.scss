@@ -1,0 +1,32 @@
+.index-category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 60px 0;
+
+}
+
+.index-category-box{
+    background: color #111;;
+    height: 180px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    position: relative;
+}
+
+.index-category h3{
+    text-align: center;
+    
+}
+.category-img img{
+    width: 120px;
+    max-height: 150px
+    
+}
+

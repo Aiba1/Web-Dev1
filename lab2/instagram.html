@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            max-width: 980px;
+            width: 100%;
+        }
+
+        .phone-section {
+            
+            height: 15px;
+            flex: 5;
+            display: flex;
+            justify-content: center;
+        }
+
+        .phone-images {
+            position: absolute;
+            left: 500px;
+            top: 100px;
+        }
+
+
+
+
+        .login-section {
+            flex: 5;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 300px;
+            
+            text-align: center;
+        }
+
+        .login-section h1 {
+            font-family: 'Billabong', cursive;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .login-section input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            background-color: #fafafa;
+            font-size: 14px;
+        }
+
+        .login-section .login-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .login-section .login-btn:hover {
+            background-color: #007ac1;
+        }
+
+        .login-section .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .login-section .divider::before,
+        .login-section .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: #dbdbdb;
+        }
+
+        .login-section .divider span {
+            margin: 0 10px;
+            font-size: 12px;
+            color: #8e8e8e;
+            font-weight: bold;
+        }
+
+        .login-section .facebook-login {
+            color: #385185;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-section .forgot-password {
+            color: #00376b;
+            font-size: 12px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .signup-section {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .signup-section a {
+            color: #0095f6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .download-section {
+            margin-top: 20px;
+        }
+
+        .download-section img {
+            max-width: 100px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Phone Section -->
+        <div class="phone-section">
+            <div class="phone-images">
+                <img src="C:\Users\Aibar\Desktop\Снимок экрана 2025-01-30 115652.png" width="330"  alt="Phone 2">
+            </div>
+        </div>
+
+        <!-- Login Section -->
+        <div class="login-section">
+            <h1>Instagram</h1>
+            <form>
+                <input type="text" placeholder="Телефон, имя пользователя или эл. адрес" required>
+                <input type="password" placeholder="Пароль" required>
+                <button type="submit" class="login-btn">Войти</button>
+            </form>
+            <div class="divider">
+                <span>ИЛИ</span>
+            </div>
+            <a href="#" class="facebook-login">Войти через Facebook</a>
+            <a href="#" class="forgot-password">Забыли пароль?</a>
+
+            <div class="signup-section">
+                У вас ещё нет аккаунта? <a href="#">Зарегистрироваться</a>
+
+            </div>
+            <p>get app </p>
+
+            <div class="download-section">
+                <img src="https://static.cdninstagram.com/rsrc.php/v4/yz/r/c5Rp7Ym-Klz.png" height="37" alt="App Store">
+                <img src="https://static.cdninstagram.com/rsrc.php/v4/yu/r/EHY6QnZYdNX.png" alt="Google Play">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

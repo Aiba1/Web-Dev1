@@ -1,0 +1,10 @@
+    <section class="index-category">
+        <button (click)="switchToFront()" class="index-category-box" *ngFor = "let image of images">
+            <div class="category-name"><h3>{{image.name}}</h3>
+            <div class="category-img"><img class = "index-category-img" [src]="image.src">
+            </div>
+            </div>  
+        </button>
+
+
+    </section>
